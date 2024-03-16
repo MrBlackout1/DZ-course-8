@@ -17,7 +17,6 @@ public class Database {
             connection = DriverManager.getConnection(DB_URL, DB_USERNAME, DB_PASSWORD);
         } catch (SQLException e) {
             e.printStackTrace();
-            // Можна обробити помилку підключення до БД тут
         }
     }
 
